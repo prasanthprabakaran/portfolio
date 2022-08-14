@@ -1,18 +1,16 @@
 import React from 'react';
-import InstagramIcon from "@mui/icons-material/Instagram";
-import TwitterIcon from "@mui/icons-material/Twitter";
-import FacebookIcon from "@mui/icons-material/Facebook";
-import LinkedinIcon from "@mui/icons-material/LinkedIn"
+import LinkedInIcon from "@mui/icons-material/LinkedIn"
 import "../styles/Footer.css";
+import GitHub from '@mui/icons-material/GitHub';
 
 function Footer() {
   return (
     <div className='footer'>
       <div className='socialMedia'>
-        <InstagramIcon />
-        <TwitterIcon />
-        <FacebookIcon />
-        <LinkedinIcon />
+      <a target="_blank" href='https://www.linkedin.com/in/prasanthprabakaran/' rel="noreferrer"><LinkedInIcon /></a>
+          
+
+          <a target="_blank" href='https://github.com/prasanthprabakaran' rel="noreferrer"><GitHub/></a>
       </div>
       <p>&copy; 2022 Prasanth Prabakaran</p>
     </div>

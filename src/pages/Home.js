@@ -1,6 +1,6 @@
 import React from 'react';
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
-import EmailIcon from "@mui/icons-material/Email";
+// import EmailIcon from "@mui/icons-material/Email";
 import { GitHub } from '@mui/icons-material';
 import "../styles/Home.css"
 
@@ -13,9 +13,11 @@ function Home() {
           <p>
             A Full-Stack developer with a passion for learning and creating.
           </p>
-          <LinkedInIcon href="https://www.linkedin.com/in/prasanthprabakaran/"/>
-          <EmailIcon/>
-          <GitHub />
+          <a target="_blank" href='https://www.linkedin.com/in/prasanthprabakaran/' rel="noreferrer"><LinkedInIcon /></a>
+          
+          {/* <a target="_blank" href='' rel="noreferrer"><EmailIcon/></a> */}
+
+          <a target="_blank" href='https://github.com/prasanthprabakaran' rel="noreferrer"><GitHub/></a>
         </div>
       </div>
       <div className='skills'>
