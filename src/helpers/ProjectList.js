@@ -33,5 +33,12 @@ export const ProjectList = [
         url: "",
         link: "https://crm-app-prasanth.netlify.app/login"
     },
+    {
+        name: "Admin-Dashboard-1",
+        image: Proj4,
+        skills: "ReactJS,JavaScript,HTMl,CSS",
+        url: "https://github.com/prasanthprabakaran/admin-dasboard_1",
+        link: "https://curious-dragon-3da311.netlify.app/"
+    },
 
 ];
