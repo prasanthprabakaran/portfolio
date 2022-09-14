@@ -2,6 +2,7 @@ import Proj1 from "../assets/Proj1.png";
 import Proj2 from "../assets/Proj2.jpg";
 import Proj3 from "../assets/Proj3.jpg";
 import Proj4 from "../assets/Proj4.jpg";
+import Proj5 from "../assets/Proj5.png";
 
 export const ProjectList = [
     {
@@ -35,7 +36,7 @@ export const ProjectList = [
     },
     {
         name: "Admin-Dashboard-1",
-        image: Proj4,
+        image: Proj5,
         skills: "ReactJS,JavaScript,HTMl,CSS",
         url: "https://github.com/prasanthprabakaran/admin-dasboard_1",
         link: "https://curious-dragon-3da311.netlify.app/"
