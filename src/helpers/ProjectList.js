@@ -3,6 +3,7 @@ import Proj2 from "../assets/Proj2.jpg";
 import Proj3 from "../assets/Proj3.jpg";
 import Proj4 from "../assets/Proj4.jpg";
 import Proj5 from "../assets/Proj5.png";
+import Proj6 from "../assets/Proj6.png";
 
 export const ProjectList = [
     {
@@ -40,6 +41,13 @@ export const ProjectList = [
         skills: "ReactJS,JavaScript,HTMl,CSS",
         url: "https://github.com/prasanthprabakaran/admin-dasboard_1",
         link: "https://curious-dragon-3da311.netlify.app/"
+    },
+    {
+        name: "Zomato Clone",
+        image: Proj6,
+        skills: "ReactJS,NodeJS,MongoDB",
+        url: "https://github.com/prasanthprabakaran/zomato-clone",
+        link: "https://fastidious-cascaron-8cd16e.netlify.app/"
     },
 
 ];

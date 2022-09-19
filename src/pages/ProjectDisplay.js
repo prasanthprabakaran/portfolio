@@ -16,7 +16,7 @@ function ProjectDisplay() {
       <p>
         <b>Skills:</b> {project.skills}
       </p>
-      <a target="_blank" href={project.url} rel="noreferrer"><GitHub/></a>
+      {project.url? <a target="_blank" href={project.url} rel="noreferrer"><GitHub/></a> : ""}
     </div>
   );
 }
