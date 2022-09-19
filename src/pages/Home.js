@@ -26,19 +26,19 @@ function Home() {
           <li className='item'>
             <h2> Front-end</h2>
             <span>
-              ReactJS, Redux, HTML, CSS, React Native, NPM, Bootstrap
-              MaterialUI, StyledComponents
+              ReactJS, Redux, HTML, CSS, NPM, Bootstrap
+              MaterialUI, StyledComponents, React-Router-Dom, Axios, React-Hooks
             </span>
           </li>
           <li className='item'>
             <h2>Back-end</h2>
             <span>
-              NodeJS, ExpressJS, MongoDB, Mongoose, Cors,
+              NodeJS, ExpressJS,JWT-Web-tokens, DotEnv, Mongoose, Cors, Postman
             </span>
           </li>
           <li className='item'>
-            <h2>Languages</h2>
-            <span>JavaScript</span>
+            <h2>Database</h2>
+            <span>MongoDB</span>
           </li>
         </ol>
       </div>
