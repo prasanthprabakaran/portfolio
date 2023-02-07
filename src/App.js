@@ -7,10 +7,12 @@ import Footer from "./components/Footer";
 import ProjectDisplay from "./pages/ProjectDisplay";
 import Experience from './pages/Experience';
 import Contact from './pages/Contact';
+import SnackbarProvider from 'react-simple-snackbar'
 
 function App() {
   return (
     <div className="App">
+      <SnackbarProvider>
       <Router>
         <Navbar/>
         <Routes>
@@ -22,6 +24,7 @@ function App() {
         </Routes>
         <Footer/>
       </Router>
+      </SnackbarProvider>
     </div>
   );
 }

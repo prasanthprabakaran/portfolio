@@ -1,5 +1,5 @@
 import {VerticalTimeline, VerticalTimelineElement} from "react-vertical-timeline-component";
-import 'react-vertical-timeline-component';
+import 'react-vertical-timeline-component/style.min.css';
 import { School } from "@mui/icons-material";
 import { Work } from "@mui/icons-material";
 
@@ -28,10 +28,10 @@ function Experience() {
             </h3>
   
             <h4 className='vertical-timeline-element-subtitle'>
-              Bachelor's Degree in Computer Science
+              Thiruninravur
             </h4>
   
-            <p> Mathematics</p>
+            <p> B.Sc. Computer Science</p>
           </VerticalTimelineElement>
   
           <VerticalTimelineElement
