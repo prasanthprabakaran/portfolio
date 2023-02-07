@@ -35,7 +35,7 @@ function Home() {
           </a>
           <a
             target="_blank" 
-            href='https://drive.google.com/drive/u/1/folders/1rj0a-U7aVgiYLj5-el98WuFDMq6eWYjl' 
+            href='https://drive.google.com/drive/u/1/folders/1rj0a-U7aVgiYLj5-el98WuFDMq6eWYjl/view?usp=sharing' 
             rel="noreferrer">
               <button className='resume-btn'>Resume</button>
           </a>
