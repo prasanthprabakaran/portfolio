@@ -1,6 +1,6 @@
 import React from 'react';
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
-// import EmailIcon from "@mui/icons-material/Email";
+import EmailIcon from "@mui/icons-material/Email";
 import { GitHub } from '@mui/icons-material';
 import "../styles/Home.css"
 
@@ -13,11 +13,32 @@ function Home() {
           <p>
             A Full-Stack developer with a passion for learning and creating.
           </p>
-          <a target="_blank" href='https://www.linkedin.com/in/prasanthprabakaran/' rel="noreferrer"><LinkedInIcon /></a>
+          <a 
+            target="_blank" 
+            href='https://www.linkedin.com/in/prasanthprabakaran/' 
+            rel="noreferrer">
+              <LinkedInIcon />
+          </a>
           
-          {/* <a target="_blank" href='' rel="noreferrer"><EmailIcon/></a> */}
+          <a
+            target="_blank" 
+            href='mailto:iprasanthpraba@gmail.com' 
+            rel="noreferrer">
+              <EmailIcon/>
+          </a>
 
-          <a target="_blank" href='https://github.com/prasanthprabakaran' rel="noreferrer"><GitHub/></a>
+          <a
+            target="_blank" 
+            href='https://github.com/prasanthprabakaran' 
+            rel="noreferrer">
+              <GitHub/>
+          </a>
+          <a
+            target="_blank" 
+            href='https://drive.google.com/drive/u/1/folders/1rj0a-U7aVgiYLj5-el98WuFDMq6eWYjl' 
+            rel="noreferrer">
+              <button className='resume-btn'>Resume</button>
+          </a>
         </div>
       </div>
       <div className='skills'>
