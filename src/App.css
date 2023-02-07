@@ -1,8 +1,45 @@
+html {
+  scroll-behavior: smooth;
+}
+
 .App {
-  text-align: center;
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  background-color: #f0f0f0;
 }
 
 body{
   padding: 0;
   margin: 0;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #747e91;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgb(30, 61, 198);
+  border-radius: 12px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(14, 14, 114, 0.911);
+  border-radius: 12px;
+}
+
+.experience {
+  margin-top: 10px;
+}
+#no-scroll {
+  overflow: hidden;
+  height: 100vh;
 }

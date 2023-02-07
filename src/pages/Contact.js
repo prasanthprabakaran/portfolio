@@ -1,3 +1,4 @@
+import '../styles/Contact.css'
 import MailOutlineIcon from '@mui/icons-material/MailOutline';
 import WhatsAppIcon from '@mui/icons-material/WhatsApp';
 import React, { useRef } from 'react';

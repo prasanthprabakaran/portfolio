@@ -1,6 +1,4 @@
-#heading{
-  margin-top: 20px;
-}
+
 
 .projects {
     width: 100%;
@@ -15,32 +13,39 @@
     color: #3e497a;
     font-size: 60px;
     font-weight: bolder;
+    margin-top: 10px;
+    margin-bottom: 20px;
   }
   
   .projectList {
-    width: 70vw;
+    width: 90vw;
     height: auto;
     display: grid;
+    row-gap: 40px;
     grid-template-columns: 1fr 1fr 1fr;
     place-items: center;
+    margin-top: 20px;
   }
   
   /* MENU ITEM STYLING */
   
   .projectItem {
     border-radius: 15px;
-    width: 300px;
+    width: 400px;
     height: 300px;
-    margin: 40px;
     box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
     text-align: center;
+    transition: all 0.6 ease;
   }
   .projectItem:hover {
     box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.5);
-    transition: 0.3s ease-in;
     cursor: pointer;
+    transform: scale(1.09);
   }
-  
+  .projectItem:active {
+    opacity: 0,7;
+    background-color: rgb(223, 219, 219);
+  }
   .projectItem .bgImage {
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;

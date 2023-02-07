@@ -8,13 +8,25 @@ import ProjectDisplay from "./pages/ProjectDisplay";
 import Experience from './pages/Experience';
 import Contact from './pages/Contact';
 import SnackbarProvider from 'react-simple-snackbar'
-
+import Preloader from './components/Preloader';
+import { useState,useEffect } from 'react';
 function App() {
+
+  const [load, updateLoad] = useState(true);
+
+  useEffect(()=> {
+    const timer = setTimeout(()=> {
+      updateLoad(false);
+    },1200);
+    return () => clearTimeout(timer);
+  },[load]);
+
   return (
     <div className="App">
       <SnackbarProvider>
+        <Preloader load={load} />
       <Router>
-        <Navbar/>
+      <Navbar/>
         <Routes>
           <Route path="/" element={<Home/>} />
           <Route path="/projects" element={<Projects/>} />
