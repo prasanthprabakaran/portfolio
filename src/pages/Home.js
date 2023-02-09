@@ -10,7 +10,7 @@ function Home() {
     <div className='home'>
       <div className='about'>
         <h2> 
-          Hi
+          Hi,
           <span className='wave'>{' '}</span>My Name is{' '}
           <span className='name-shadow'>Prasanth</span>
         </h2>
