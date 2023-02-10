@@ -4,9 +4,9 @@ import Proj3 from "../assets/Proj3.jpg";
 import Proj4 from "../assets/Proj4.jpg";
 import Proj5 from "../assets/Proj5.png";
 import Proj6 from "../assets/Proj6.png";
-import Proj12 from "../assets/Proj6.png";
-import Proj11 from "../assets/Proj6.png";
-import Proj10 from "../assets/Proj6.png";
+import Proj12 from "../assets/Proj12.png";
+import Proj11 from "../assets/Proj11.png";
+import Proj10 from "../assets/Proj10.png";
 
 export const ProjectList = [
     {
