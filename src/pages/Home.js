@@ -67,20 +67,53 @@ function Home() {
         <ol className='list'>
           <li className='item'>
             <h2> Front-end</h2>
-            <span>
+            <img id='skills' src='https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white'
+            alt='HTML5'/>
+            <img id='skills' src='https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white'
+            alt='CSS3'/>
+            <img id='skills' src='https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black'
+            alt='JavaScript'/>
+            <img id='skills' src='https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB'
+            alt='React'/>
+            <img id='skills' src='https://img.shields.io/badge/Redux-593D88?style=for-the-badge&logo=redux&logoColor=white'
+            alt='Redux'/>
+            <img id='skills' src='https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white'
+            alt='Bootstrap'/>
+            <img id='skills' src='https://img.shields.io/badge/Material%20UI-007FFF?style=for-the-badge&logo=mui&logoColor=white'
+            alt='MaterialUI'/>
+            <img id='skills' src='https://img.shields.io/badge/React_Router-CA4245?style=for-the-badge&logo=react-router&logoColor=white'
+            alt='React Router DOM'/>            
+            {/* <span>
               ReactJS, Redux, HTML, CSS, NPM, Bootstrap
               MaterialUI, StyledComponents, React-Router-Dom, Axios, React-Hooks
-            </span>
+            </span> */}
           </li>
           <li className='item'>
             <h2>Back-end</h2>
-            <span>
+            <img id='skills' src='	https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white'
+            alt='ExpressJS'/>
+            <img id='skills' src='https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white'
+            alt='NodeJS'/>
+            <img id='skills' src='https://img.shields.io/badge/JWT-000000?style=for-the-badge&logo=JSON%20web%20tokens&logoColor=white'
+            alt='JWT'/>            
+            {/* <span>
               NodeJS, ExpressJS,JWT-Web-tokens, DotEnv, Mongoose, Cors, Postman
-            </span>
+            </span> */}
           </li>
           <li className='item'>
             <h2>Database</h2>
-            <span>MongoDB</span>
+            <img id='skills' src='https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white'
+            alt='MongoDB'/>
+            {/* <span>MongoDB</span> */}
+          </li>
+          <li className='item'>
+            <h2>Tools</h2>
+            <img id='skills' src='https://img.shields.io/badge/npm-CB3837?style=for-the-badge&logo=npm&logoColor=white' 
+            alt='NPM'/>
+            <img id='skills' src='https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=Postman&logoColor=white' 
+            alt='POSTMAN'/>
+            <img id='skills' src='https://img.shields.io/badge/VSCode-0078D4?style=for-the-badge&logo=visual%20studio%20code&logoColor=white' 
+            alt='VSCode'/>
           </li>
         </ol>
       </div>

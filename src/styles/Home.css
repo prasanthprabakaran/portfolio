@@ -96,6 +96,10 @@
     font-weight: bold;
   }
   
+  #skills {
+    margin: 2px;
+  }
+
   .list span {
     font-size: 20px;
   }
