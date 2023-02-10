@@ -27,13 +27,13 @@ body{
 /* Handle */
 ::-webkit-scrollbar-thumb {
   background: rgb(30, 61, 198);
-  border-radius: 12px;
+  /* border-radius: 12px; */
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
   background: rgba(14, 14, 114, 0.911);
-  border-radius: 12px;
+  /* border-radius: 12px; */
 }
 
 .experience {

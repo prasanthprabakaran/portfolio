@@ -49,6 +49,12 @@
     transition: all 0.5s ease;
   }
 
+  .prompt p {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: left;
+    font-weight: 400;
+  }
+
   .name-shadow {
     text-shadow: -2px -2px 5px #21325e;
   }

@@ -35,7 +35,7 @@ function Home() {
           <p>
             A Software developer with a passion for learning and creating 
             new web applications. Certified Trained Fresher in Full Stack Developer Program 
-            from GUVI IITM Research Park
+            from GUVI IITM Research Park. Living in Chennai,India
           </p>
           <a 
             target="_blank" 
@@ -117,6 +117,10 @@ function Home() {
             alt='POSTMAN'/>
             <img id='skills' src='https://img.shields.io/badge/VSCode-0078D4?style=for-the-badge&logo=visual%20studio%20code&logoColor=white' 
             alt='VSCode'/>
+            <img id='skills' src='https://img.shields.io/badge/GIT-E44C30?style=for-the-badge&logo=git&logoColor=white'
+            alt='GIT' />
+            <img id='skills' src='https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white' 
+            alt='Github' />
           </li>
         </ol>
       </div>
