@@ -4,6 +4,9 @@ import Proj3 from "../assets/Proj3.jpg";
 import Proj4 from "../assets/Proj4.jpg";
 import Proj5 from "../assets/Proj5.png";
 import Proj6 from "../assets/Proj6.png";
+import Proj12 from "../assets/Proj6.png";
+import Proj11 from "../assets/Proj6.png";
+import Proj10 from "../assets/Proj6.png";
 
 export const ProjectList = [
     {
@@ -46,25 +49,36 @@ export const ProjectList = [
         name: "Zomato Clone",
         image: Proj6,
         skills: ['React','Redux','Express','NodeJS','MongoDB'],
-        url: "https://github.com/prasanthprabakaran/zomato-clone",
-        link: "https://fastidious-cascaron-8cd16e.netlify.app/"
+        FrontUrl: "https://github.com/prasanthprabakaran/zomato-clone",
+        BackURl: "",
+        AppLink: "https://fastidious-cascaron-8cd16e.netlify.app/",
+        description: "",
+    },
+    {
+        name: "Guvi Movies App",
+        image: Proj12,
+        skills: ['React','Express','NodeJS','MongoDB'],
+        FrontUrl: "",
+        BackURl:"",
+        AppLink: "https://guvi-movies-app.netlify.app/",
+        description:"",
     },
     {
         name: "Customer Relationship Application",
-        image: Proj1,
+        image: Proj11,
         skills: ['React','Redux','Express','NodeJS','MongoDB'],
         FrontUrl: "",
         BackURl:"",
-        AppLink: "",
+        AppLink: "https://crm-app-prasanth.netlify.app/",
         description:"",
     },
     {
         name: "Inventory Billing App",
-        image: Proj1,
+        image: Proj10,
         skills: ['React','Redux','Express','NodeJS','MongoDB'],
         FrontUrl: "",
         BackURl:"",
-        AppLink: "",
+        AppLink: "https://billing-app1.netlify.app/",
         description:"",
 
     },
