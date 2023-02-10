@@ -9,6 +9,7 @@ function Home() {
   return (
     <div className='home'>
       <div className='about'>
+      <h1 id='about-me'>About Me</h1>
         <h2> 
           Hi,
           <span className='wave'>{' '}</span>My Name is{' '}
@@ -30,9 +31,11 @@ function Home() {
           />
         </h1>
         <div className='prompt'>
+          
           <p>
             A Software developer with a passion for learning and creating 
-            new web applications and to maintain them. 
+            new web applications. Certified Trained Fresher in Full Stack Developer Program 
+            from GUVI IITM Research Park
           </p>
           <a 
             target="_blank" 
