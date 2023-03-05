@@ -9,13 +9,13 @@ import Proj11 from "../assets/Proj11.png";
 import Proj10 from "../assets/Proj10.png";
 
 export const ProjectList = [
-    {
-        name: "Pokemon Cards",
-        image: Proj1,
-        skills: ['JavaScript','HTMl','CSS'],
-        FrontUrl: "https://github.com/prasanthprabakaran/Pokemon-API-V1",
-        AppLink: "https://tangerine-otter-0cda85.netlify.app/"
-    },
+    // {
+    //     name: "Pokemon Cards",
+    //     image: Proj1,
+    //     skills: ['JavaScript','HTMl','CSS'],
+    //     FrontUrl: "https://github.com/prasanthprabakaran/Pokemon-API-V1",
+    //     AppLink: "https://tangerine-otter-0cda85.netlify.app/"
+    // },
     // {
     //     name: "Calculator",
     //     image: Proj2,
@@ -45,15 +45,15 @@ export const ProjectList = [
     //     url: "https://github.com/prasanthprabakaran/admin-dasboard_1",
     //     link: "https://curious-dragon-3da311.netlify.app/"
     // },
-    {
-        name: "Zomato Clone",
-        image: Proj6,
-        skills: ['React','Redux','Express','NodeJS','MongoDB'],
-        FrontUrl: "https://github.com/prasanthprabakaran/zomato-clone",
-        BackURl: "",
-        AppLink: "https://fastidious-cascaron-8cd16e.netlify.app/",
-        description: "",
-    },
+    // {
+    //     name: "Zomato Clone",
+    //     image: Proj6,
+    //     skills: ['React','Redux','Express','NodeJS','MongoDB'],
+    //     FrontUrl: "https://github.com/prasanthprabakaran/zomato-clone",
+    //     BackURl: "",
+    //     AppLink: "https://fastidious-cascaron-8cd16e.netlify.app/",
+    //     description: "",
+    // },
     {
         name: "Guvi Movies App",
         image: Proj12,
