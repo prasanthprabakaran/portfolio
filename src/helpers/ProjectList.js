@@ -1,12 +1,13 @@
-import Proj1 from "../assets/Proj1.png";
+// import Proj1 from "../assets/Proj1.png";
 // import Proj2 from "../assets/Proj2.jpg";
 // import Proj3 from "../assets/Proj3.jpg";
 // import Proj4 from "../assets/Proj4.jpg";
 // import Proj5 from "../assets/Proj5.png";
-import Proj6 from "../assets/Proj6.png";
+// import Proj6 from "../assets/Proj6.png";
 import Proj12 from "../assets/Proj12.png";
 import Proj11 from "../assets/Proj11.png";
 import Proj10 from "../assets/Proj10.png";
+import Proj8 from "../assets/Proj8.png";
 
 export const ProjectList = [
     // {
@@ -79,6 +80,16 @@ export const ProjectList = [
         FrontUrl: "",
         BackURl:"",
         AppLink: "https://billing-app1.netlify.app/",
+        description:"",
+
+    },
+    {
+        name: "Chat App",
+        image: Proj8,
+        skills: ['React','Socket.io','Express','NodeJS','MongoDB'],
+        FrontUrl: "https://github.com/prasanthprabakaran/chat-app-client",
+        BackURl:"https://github.com/prasanthprabakaran/chat-app-server",
+        AppLink: "https://prasanthchatapp.netlify.app/",
         description:"",
 
     },
