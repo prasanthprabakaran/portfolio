@@ -51,6 +51,24 @@ function Experience() {
               level.
             </p>
           </VerticalTimelineElement>
+
+          <VerticalTimelineElement
+            className='vertical-timeline-element--work'
+            date='Jul 2023 - Oct 2023'
+            iconStyle={{ background: '#9e64c4', color: '#fff' }}
+            icon={<Work />}>
+            <h3 className='vertical-timeline-element-title'>
+              Full Stack Developer - Internship
+            </h3>
+            <h4 className='vertical-timeline-element-subtitle'>
+              KarmaDev.in
+            </h4>
+            <p>
+             Demonstrated a strong passion for web development and a keen ability to
+             grasp, apply concepts and successfully completed 3-month web development
+             internship at karmaDev.in
+            </p>
+          </VerticalTimelineElement>
         </VerticalTimeline>
       </div>
     );
