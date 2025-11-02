@@ -1,12 +1,10 @@
 import '../styles/Contact.css'
-import MailOutlineIcon from '@mui/icons-material/MailOutline';
-import WhatsAppIcon from '@mui/icons-material/WhatsApp';
 import React, { useRef } from 'react';
 import emailjs from '@emailjs/browser';
-import { useSnackbar } from 'react-simple-snackbar';
+import { useSnackbar } from '../contexts/SnackbarContext';
 
 function Contact() {
-  const [openSnackbar, closeSnackbar] = useSnackbar();
+  const { openSnackbar } = useSnackbar();
   const form = useRef();
 
   const sendEmail = (e) => {
@@ -21,10 +19,10 @@ function Contact() {
       )
       .then(
         (result) => {
-          openSnackbar('Message sent successfully');
+          openSnackbar('Message sent successfully', 'success');
         },
         (error) => {
-          closeSnackbar('Error send message');
+          openSnackbar('Error sending message', 'error');
         }
       );
 
@@ -35,30 +33,6 @@ function Contact() {
     <section>
       <h1>Contact Me</h1>
       <div className='container contact__container'>
-        <div className='contact__options'>
-          <article className='contact__option'>
-            <MailOutlineIcon />
-            <h4>Email</h4>
-            <h5>iprasanthpraba@gmail.com</h5>
-            <a
-              href='mailto:iprasanthpraba@gmail.com'
-              target='_blank'
-              rel='noreferrer'>
-              Send a message
-            </a>
-          </article>
-          <article className='contact__option'>
-            <WhatsAppIcon />
-            <h4>WhatsApp</h4>
-            <h5>7010970748</h5>
-            <a
-              href='https://api.whatsapp.com/send?phone=7010970748'
-              target='_blank'
-              rel='noreferrer'>
-              Send a message
-            </a>
-          </article>
-        </div>
         <form ref={form} onSubmit={sendEmail}>
           <h2>Get In Touch</h2>
           <input

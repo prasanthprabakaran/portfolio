@@ -7,7 +7,7 @@ import Footer from "./components/Footer";
 import ProjectDisplay from "./pages/ProjectDisplay";
 import Experience from './pages/Experience';
 import Contact from './pages/Contact';
-import SnackbarProvider from 'react-simple-snackbar'
+import { SnackbarProvider } from './contexts/SnackbarContext';
 import Preloader from './components/Preloader';
 import { useState,useEffect } from 'react';
 function App() {

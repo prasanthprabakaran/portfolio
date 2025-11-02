@@ -1,6 +1,5 @@
 import React from 'react';
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
-import EmailIcon from "@mui/icons-material/Email";
 import { GitHub } from '@mui/icons-material';
 import "../styles/Home.css"
 import Typewriter from 'typewriter-effect'
@@ -46,22 +45,9 @@ function Home() {
           
           <a
             target="_blank" 
-            href='mailto:iprasanthpraba@gmail.com' 
-            rel="noreferrer">
-              <EmailIcon/>
-          </a>
-
-          <a
-            target="_blank" 
             href='https://github.com/prasanthprabakaran' 
             rel="noreferrer">
               <GitHub/>
-          </a>
-          <a
-            target="_blank" 
-            href='https://drive.google.com/file/d/1aTIBHcDctKenRl4RoQNOyjVeyKLy2uNI/view?usp=sharing' 
-            rel="noreferrer">
-              <button className='resume-btn'>Resume</button>
           </a>
         </div>
       </div>
